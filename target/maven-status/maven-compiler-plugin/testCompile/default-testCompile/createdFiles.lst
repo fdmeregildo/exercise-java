@@ -1,0 +1,3 @@
+training\weather\resources\MetaWeatherClientTest.class
+training\weather\controller\WeatherForecastControllerTest.class
+training\weather\services\WeatherForecastServiceImplTest.class

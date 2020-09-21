@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: training.weather.controller.WeatherForecastControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 19.304 s <<< FAILURE! - in training.weather.controller.WeatherForecastControllerTest
+geCityWeatherDayTest_HttpStatusOk  Time elapsed: 5.997 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at training.weather.controller.WeatherForecastControllerTest.geCityWeatherDayTest_HttpStatusOk(WeatherForecastControllerTest.java:51)
+
+geCityWeather_returnValueOk  Time elapsed: 4.012 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at training.weather.controller.WeatherForecastControllerTest.geCityWeather_returnValueOk(WeatherForecastControllerTest.java:44)
+
+geCityWeather_HttpStatusOk  Time elapsed: 4.026 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at training.weather.controller.WeatherForecastControllerTest.geCityWeather_HttpStatusOk(WeatherForecastControllerTest.java:38)
+
+geCityWeatherDayTest_returnValueOk  Time elapsed: 4.036 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at training.weather.controller.WeatherForecastControllerTest.geCityWeatherDayTest_returnValueOk(WeatherForecastControllerTest.java:57)
+
